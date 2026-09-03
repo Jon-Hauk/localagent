@@ -82,3 +82,13 @@ Calibration, honestly: a local 14B is a competent junior. It is good at
 single-file work, boilerplate, tests and refactors, and unreliable at long
 multi-step reasoning. The approval gate is not ceremony - it is the thing that
 makes the tool safe to use.
+
+## License
+
+Apache-2.0. See [LICENSE](LICENSE).
+
+Chosen over MIT for the explicit patent grant, which is what makes this
+adoptable inside a company rather than only readable. It disclaims warranty,
+which matters more than usual here: this is a harness that runs model-proposed
+edits against your files, and the approval gate is the only thing between a
+suggestion and a write.
